@@ -1,13 +1,11 @@
-
 import './App.css'
+import ProductoList from './components/ProductoList'
 
 function App() {
-
   return (
-    <>
-    
-     {/* <h1 >Holaa</h1> */}
-    </>
+    <div className="App">
+      <ProductoList/>
+    </div>
   )
 }
 
